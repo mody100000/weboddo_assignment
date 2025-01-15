@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-pagination-number {
+  @apply text-white text-lg mx-3 mt-20 cursor-pointer;
+}
+
+.swiper-pagination-number-active {
+  @apply text-gold underline text-xl mb-1 font-bold;
+}
